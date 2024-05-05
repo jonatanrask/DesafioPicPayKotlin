@@ -1,0 +1,22 @@
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17ed1', 'João Silva', '111.222.333-44', 'joao@example.com', 'senha123', 1500.0, 0);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17ed2', 'Maria Santos', '555.666.777-88', 'maria@example.com', 'senha456', 2000.0, 0);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17ed3', 'Empresa ABC', '98.765.432/0001-21', 'empresa_abc@example.com', 'senhaABC', 5000.0, 1);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17ed4', 'Empresa XYZ', '12.345.678/0001-90', 'empresa_xyz@example.com', 'senhaXYZ', 7000.0, 1);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17ed5', 'Carlos Oliveira', '777.888.999-00', 'carlos@example.com', 'senha789', 3000.0, 0);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17ed6', 'Ana Souza', '111.222.333-55', 'ana@example.com', 'senha135', 2500.0, 0);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17ed7', 'Empresa LMN', '76.543.210/0001-43', 'empresa_lmn@example.com', 'senhaLMN', 6000.0, 1);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17ed8', 'Empresa UVW', '98.765.432/0001-54', 'empresa_uvw@example.com', 'senhaUVW', 8000.0, 1);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17ed9', 'Fernanda Oliveira', '333.444.555-66', 'fernanda@example.com', 'senha246', 3500.0, 0);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17eda', 'Rafaela Costa', '888.999.000-11', 'rafaela@example.com', 'senha369', 2800.0, 0);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17edb', 'Empresa PQR', '12.345.678/0001-32', 'empresa_pqr@example.com', 'senhaPQR', 6500.0, 1);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17edc', 'Empresa STU', '76.543.210/0001-76', 'empresa_stu@example.com', 'senhaSTU', 7500.0, 1);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17edd', 'Gabriel Santos', '222.333.444-55', 'gabriel@example.com', 'senha777', 3200.0, 0);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17ede', 'Patricia Lima', '777.888.999-22', 'patricia@example.com', 'senha888', 2700.0, 0);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17edf', 'Empresa MNO', '11.222.333/0001-78', 'empresa_mno@example.com', 'senhaMNO', 9000.0, 1);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17ee0', 'Empresa GHI', '98.765.432/0001-99', 'empresa_ghi@example.com', 'senhaGHI', 8200.0, 1);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17ee1', 'Lucas Silva', '444.555.666-77', 'lucas@example.com', 'senha555', 3800.0, 0);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17ee2', 'Juliana Pereira', '999.000.111-22', 'juliana@example.com', 'senha111', 2900.0, 0);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17ee3', 'Empresa DEF', '12.345.678/0001-43', 'empresa_def@example.com', 'senhaDEF', 6700.0, 1);
+INSERT INTO users (id, name, document, email, password, balance, user_type) VALUES ('45946501-a8db-4a8f-9e80-2ddef6f17ee4', 'Empresa RST', '76.543.210/0001-12', 'empresa_rst@example.com', 'senhaRST', 7800.0, 1);
+
+INSERT INTO transactions (id, balance, created_at, user_payee_id, user_payer_id) VALUES ('45946501-a8db-9a8f-9e80-2ddef6f17ed9', 100.00, '2024-05-04 10:00:00', '45946501-a8db-4a8f-9e80-2ddef6f17ee2', '45946501-a8db-4a8f-9e80-2ddef6f17edb');
